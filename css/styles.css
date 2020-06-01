@@ -374,11 +374,11 @@ color: var(--primary-background-color);
   display: block;
   width: 20px;
   height: 20px;
-  fill: currentColor;
+  fill: red;
   
 }
 .social-link-item:hover {
-  color: var(--primary-background-color);
+  color: green;
 }
 .icon-social {
   outline: 1px solid red;
