@@ -357,15 +357,28 @@ ul {
 }
 .icon-social > .social-link {
   display: block;
+  padding: 12px 12px;
   width: 44px;
   height: 44px;
+  text-align: center;
+  border-radius: 50%;
+  border: 0;
   color: var(--primary-text-color);
+}
+.icon-social > .social-link:hover,
+.icon-social > .social-link:focus {
+background-color: var(--accent-color);
+color: var(--primary-background-color);
 }
 .social-link-item {
   display: block;
   width: 20px;
   height: 20px;
+  fill: currentColor;
   
+}
+.social-link-item:hover {
+  color: var(--primary-background-color);
 }
 .icon-social {
   outline: 1px solid red;
