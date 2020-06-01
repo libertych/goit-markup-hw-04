@@ -355,10 +355,11 @@ ul {
   align-items: center;
   justify-content: center;
 }
-.social-link {
+.icon-social > .social-link {
   display: block;
   width: 44px;
   height: 44px;
+  color: var(--primary-text-color);
 }
 .social-link-item {
   display: block;
