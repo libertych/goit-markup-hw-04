@@ -332,7 +332,9 @@ ul {
   text-transform: uppercase;
   color: var(--title-text-color);
 }
-
+.we-doing-link {
+  background-image: url(../images/laptop-optim.jpg);
+}
 /* team container */
 
 .flex-team .flex-item + .flex-item {
@@ -353,12 +355,25 @@ ul {
   align-items: center;
   justify-content: center;
 }
+.social-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+}
+.social-link-item {
+  display: block;
+  width: 20px;
+  height: 20px;
+  
+}
 .icon-social {
+  outline: 1px solid red;
   display: inline-block;
   width: 44px;
   height: 44px;
-  background-image: url(../images/insta.svg);
+  /* background-image: url(../images/insta.svg); */
   background-size: 10px;
+  border: 0;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
@@ -442,7 +457,15 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
-
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
 .logo-footer {
   display: block;
   margin-bottom: 10px;
