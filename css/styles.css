@@ -480,6 +480,14 @@ color: var(--primary-background-color);
   border: 1px solid #AFB1B8;
   border-radius: 4px;
 }
+.customers-link:hover,
+.customers-link:focus {
+border-color: var(--accent-color);
+}
+.customers-brend:hover,
+.customers-brend:focus {
+  color: var(--accent-color);
+}
 .logo-footer {
   display: block;
   margin-bottom: 10px;
