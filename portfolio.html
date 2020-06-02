@@ -6,7 +6,7 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
      <!-- Шапка сайта -->
@@ -37,18 +37,16 @@
       <ul class="nav-contakts">
         <li class="nav-contakts-item">
             
-            <!-- <img src="./images/logomail.svg" alt="лого почты" /> -->
           <a href="mailto:info@devstudio.com" class="nav-mail">
-            <svg class="envelope">
-              <use href="./images/symbol-defs.svg#icon-envelope"></use>
+            <svg class="envelope" width="16px" height="11px">
+              <use href="./images/sprite.svg#icon-envelope"></use>
             </svg>
             info@devstudio.com</a>
         </li>
         <li class="nav-contakts-item">
-          <!-- <img src="./images/logophon.png" alt="лого телефон" /> -->
           <a href="tel:380961111111" class="nav-tel">
             <svg class="phone">
-              <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+              <use href="./images/sprite.svg#icon-smartphone"></use>
             </svg>
             +38 096 111 11 11</a>
         </li>
@@ -147,7 +145,7 @@
             </li>
             <li class="flex-item card">
                 <a href="" class="link">
-                    <img src="./images/disine-2.png" alt="картинка книга">
+                    <img src="./images/disine-optim.jpg" alt="картинка книга">
                     <div class="card-contant">
                 <h2 class="nav-title">Издание Limited Edition</h2>
                 <p class="nav-text">Дизайн</p>
@@ -157,7 +155,7 @@
             </li>
             <li class="flex-item card">
                 <a href="" class="link">
-                    <img src="./images/marketing-2.png" alt="картинка бирка">
+                    <img src="./images/marketing-optim.jpg" alt="картинка бирка">
                     <div class="card-contant">
                 <h2 class="nav-title">Проект LAB</h2>
                 <p class="nav-text">Маркетинг</p>
@@ -181,49 +179,63 @@
         </section>
 </main>
     <!-- Подвал -->
-    <div class="footer">
-      <footer class="container">
-        <div class="footer-content">
-          <div class="qqq">
-            <a href="./index.html" class="logo-footer">Web<span class="logo-footer-accent">Studio</span>
-            </a>
-          <address class="address">
-            <span class="address-item">г. Киев, пр-т Леси Украинки,26</span>
-            <span class="address-item">info@example.com</span>
-            <span class="address-item">+38 099 111 11 11</span>
-          </address>
+    <section class="section-footer">
+      <div class="footer">
+        <footer class="container">
+          <div class="footer-content">
+            <div class="qqq">
+              <a href="./index.html" class="logo-footer">Web <span class="logo-footer-accent">Studio</span>
+              </a>
+            <address class="address">
+              <span class="address-item">г. Киев, пр-т Леси Украинки,26</span>
+              <span class="address-item">info@example.com</span>
+              <span class="address-item">+38 099 111 11 11</span>
+            </address>
+            </div>
+       
+           
+            <div class="flex-slogan">
+          <b class="slogan">присоединяйтесь</b>
+          <ul class="social-links">
+            <li class="item-social">
+              <a href="">
+                <svg class="social-link-footer" aria-label="instagram">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+                <!-- <img src="./images/instagram.svg" alt="логотип инстаграм" /> -->
+              </a>
+            </li>
+            <li class="item-social">
+              <a href="">
+                <svg class="social-link-footer" aria-label="instagram">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+                <!-- <img src="./images/tvit.svg" alt="логотип твитер" /> -->
+              </a>
+            </li>
+            <li class="item-social">
+              <a href="">
+                <svg class="social-link-footer" aria-label="instagram">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+                <!-- <img src="./images/faceboock.svg" alt="логотип фейсбук" /> -->
+              </a>
+            </li>
+            <li class="item-social">
+              <a href="">
+                <svg class="social-link-footer" aria-label="instagram">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+                
+              </a>
+            </li>
+          </ul>
+            </div>
           </div>
-     
-         
-          <div class="flex-slogan">
-        <b class="slogan">присоединяйтесь</b>
-        <ul class="social-links">
-          <li class="item-social">
-            <a href="">
-              <img src="./images/instagram.svg" alt="логотип инстаграм" />
-            </a>
-          </li>
-          <li class="item-social">
-            <a href="">
-              <img src="./images/tvit.svg" alt="логотип твитер" />
-            </a>
-          </li>
-          <li class="item-social">
-            <a href="">
-              <img src="./images/faceboock.svg" alt="логотип фейсбук" />
-            </a>
-          </li>
-          <li class="item-social">
-            <a href="">
-              <img src="./images/in.svg" alt="логотип линкедин" />
-            </a>
-          </li>
-        </ul>
-          </div>
-        </div>
-         
-        <p class="copy"> 2020 | Developed by GoIT Students</p >
-      </footer>
+           
+          <p class="copy"> 2020 | Developed by GoIT Students</p >
+        </footer>
+    </section>
     </div>
 </body>
 </html>
