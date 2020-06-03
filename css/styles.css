@@ -222,21 +222,36 @@ img {
 .flex-advantages .item {
   width: calc((100%-90px) / 4);
 }
+.advantages-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: var(--sekendary-background-color);
+  border-radius: 4px;
 
-.item::before {
+}
+.advantages-icon {
+  width: 65px;
+  height: 70px;
+}
+/* .item::before {
   content: "";
   display: block;
+  width: 270px;
   height: 120px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
   background-color: #f5f4fa;
-}
-.icon-antena::before {
+} */
+/* .icon-antena::before {
   background-image: url(../images/antenna-1.svg);
   
-}
+} */
 .icon-clok::before {
   background-image: url(../images/clock-1.svg);
 }
